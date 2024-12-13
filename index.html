@@ -61,7 +61,7 @@
 <body>
     <header>
         <h1>WUE Underwriting Quiz</h1>
-        <p>Test your knowledge of Chapter 1!</p>
+        <p>Test your knowledge from all chapters!</p>
     </header>
     <div class="container">
         <div id="quiz">
@@ -78,6 +78,7 @@
     </div>
     <script>
         const quizData = [
+            // Chapter 1 Questions
             {
                 question: "What is the principle of utmost good faith in insurance contracts?",
                 options: [
@@ -89,45 +90,68 @@
                 answer: 1
             },
             {
-                question: "Which of the following is NOT a material fact?",
+                question: "What is meant by the term 'material fact' in insurance?",
                 options: [
-                    "The proximity of a fire hazard to the insured premises",
-                    "The applicant’s age for health insurance",
-                    "A well-known fact available in public records",
-                    "The level of risk presented by flammable materials"
-                ],
-                answer: 2
-            },
-            {
-                question: "What is the difference between a peril and a hazard?",
-                options: [
-                    "A peril gives rise to a loss; a hazard influences its operation",
-                    "A hazard gives rise to a loss; a peril mitigates it",
-                    "Perils and hazards are interchangeable terms",
+                    "Any fact that influences a prudent insurer's decision",
+                    "Facts known only to the insured",
+                    "Facts excluded by the insurer",
                     "None of the above"
                 ],
                 answer: 0
             },
             {
-                question: "Which of the following is an example of a moral hazard?",
+                question: "Under the duty of disclosure, when must material facts be disclosed?",
                 options: [
-                    "Poor factory management leading to fire risks",
-                    "Age of a vehicle affecting motor insurance",
-                    "Security systems reducing burglary risk",
-                    "The material of a building's construction"
+                    "Only at the start of the contract",
+                    "During the life of the policy if the risk changes",
+                    "Only during renewals",
+                    "Both A and B"
+                ],
+                answer: 3
+            },
+            {
+                question: "What is an example of a moral hazard in insurance?",
+                options: [
+                    "Poor factory management",
+                    "Age of the insured",
+                    "Fire-resistant materials in a building",
+                    "Location of the insured property"
                 ],
                 answer: 0
             },
             {
-                question: "What is a consequence of fraudulent misrepresentation in insurance?",
+                question: "What does the term 'peril' refer to in insurance?",
                 options: [
-                    "The policy becomes voidable",
-                    "The insurer keeps the premium and ignores the breach",
-                    "The insured must pay double premiums",
-                    "Both A and B"
+                    "The cause of a loss",
+                    "An insured person's behavior",
+                    "The value of the insured item",
+                    "The insurer's liability"
                 ],
-                answer: 3
-            }
+                answer: 0
+            },
+            {
+                question: "Which of the following is NOT considered a material fact?",
+                options: [
+                    "The insured's occupation",
+                    "The insured's favorite color",
+                    "The location of the property",
+                    "The presence of security systems"
+                ],
+                answer: 1
+            },
+            {
+                question: "What is the consequence of fraudulent non-disclosure?",
+                options: [
+                    "The policy is voidable",
+                    "The insurer pays the claim in full",
+                    "The insured receives a refund",
+                    "No action is taken"
+                ],
+                answer: 0
+            },
+
+            // Placeholder for Chapter 2 to 11 Questions (7 per chapter)
+            // Add additional questions from subsequent chapters below
         ];
 
         let currentQuestionIndex = 0;
